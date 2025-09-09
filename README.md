@@ -1,4 +1,4 @@
-# rag_q-a
+
 
 📘 Q&A Retrieval-Augmented Generation (RAG)
 
@@ -7,17 +7,17 @@ It allows users to upload documents (e.g., invoices in PDF format), process them
 
 🚀 Features
 
-Load PDF documents using LangChain’s PyPDFLoader
+1. Load PDF documents using LangChain’s PyPDFLoader
 
-Extract and chunk text for efficient retrieval
+2. Extract and chunk text for efficient retrieval
 
-Generate embeddings using Hugging Face models
+3. Generate embeddings using Hugging Face models
 
-Store embeddings in a vector database for semantic search
+4. Store embeddings in a vector database for semantic search
 
-Query documents in natural language using Groq API LLM
+5. Query documents in natural language using Groq API LLM
 
-Get contextual answers based on document content
+6. Get contextual answers based on document content
 
 🛠️ Tech Stack
 
@@ -65,22 +65,22 @@ huggingface_api=your_huggingface_api_token
 
 ▶️ Running the Project
 
-Place your PDF file (e.g., invoices) in the Data/ folder.
+1. Place your PDF file (e.g., invoices) in the Data/ folder.
 
-Open the notebook:
+2. Open the notebook:
 
 jupyter notebook Q&A_rag.ipynb
 
 
-Run the cells step by step:
+3. Run the cells step by step:
 
-Load and preprocess documents
+* Load and preprocess documents
 
-Create embeddings
+* Create embeddings
 
-Store/retrieve chunks
+* Store/retrieve chunks
 
-Query documents with natural language
+* Query documents with natural language
 
 💡 Example Queries
 
