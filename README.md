@@ -69,8 +69,7 @@ huggingface_api=your_huggingface_api_token
 
 2. Open the notebook:
 
-jupyter notebook Q&A_rag.ipynb
-
+   jupyter notebook Q&A_rag.ipynb
 
 3. Run the cells step by step:
 
